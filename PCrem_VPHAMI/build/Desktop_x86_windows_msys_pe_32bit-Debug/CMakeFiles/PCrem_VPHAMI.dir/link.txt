@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PCrem_VPHAMI.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\PCrem_VPHAMI.dir/objects.a @CMakeFiles\PCrem_VPHAMI.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\PCrem_VPHAMI.dir/objects.a -Wl,--no-whole-archive -o PCrem_VPHAMI.exe -Wl,--out-implib,libPCrem_VPHAMI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PCrem_VPHAMI.dir\linkLibs.rsp

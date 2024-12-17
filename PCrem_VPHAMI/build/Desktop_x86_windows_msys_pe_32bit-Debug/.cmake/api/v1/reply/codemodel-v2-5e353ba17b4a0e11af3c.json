@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bb62162524d12d0e56cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PCrem_VPHAMI",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PCrem_VPHAMI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PCrem_VPHAMI-Debug-9f5e99890af3a829cfda.json",
+					"name" : "PCrem_VPHAMI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PCrem_VPHAMI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PCrem_VPHAMI_autogen-Debug-93cca2d9a83e615ae6c1.json",
+					"name" : "PCrem_VPHAMI_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/PCrem_VPHAMI/PCrem_VPHAMI/build/Desktop_x86_windows_msys_pe_32bit-Debug",
+		"source" : "E:/PCrem_VPHAMI/PCrem_VPHAMI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
