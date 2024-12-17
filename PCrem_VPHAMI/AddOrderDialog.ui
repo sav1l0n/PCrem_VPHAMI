@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddOrderDialog</class>
+ <widget class="QDialog" name="AddOrderDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить заказ</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_clientName">
+       <property name="text">
+        <string>ФИО клиента:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_clientName"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_phoneNumber">
+       <property name="text">
+        <string>Номер телефона:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_phoneNumber"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_email">
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_email"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_technician">
+       <property name="text">
+        <string>Техник:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_technician"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_device">
+       <property name="text">
+        <string>Девайс:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_device"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_problem">
+       <property name="text">
+        <string>Проблема:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QTextEdit" name="textEdit_problem"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_status">
+       <property name="text">
+        <string>Статус:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="comboBox_status">
+       <item>
+        <property name="text">
+         <string>Новый</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Выполняется</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>На согласовании</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ожидание комплектующих</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Завершен</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Выдача</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Выдан</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_cost">
+       <property name="text">
+        <string>Цена:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="lineEdit_cost"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_buttons">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_ok">
+       <property name="text">
+        <string>ОК</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_cancel">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

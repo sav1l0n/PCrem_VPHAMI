@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c67d3aab746295db67f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PCrem_VPHAMI",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PCrem_VPHAMI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PCrem_VPHAMI-Debug-42099207e5e44d0ffffd.json",
+					"name" : "PCrem_VPHAMI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PCrem_VPHAMI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PCrem_VPHAMI_autogen-Debug-252cdc4855be32281a5f.json",
+					"name" : "PCrem_VPHAMI_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/PCrem_VPHAMI/PCrem_VPHAMI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "E:/PCrem_VPHAMI/PCrem_VPHAMI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

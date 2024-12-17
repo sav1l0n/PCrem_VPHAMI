@@ -6,20 +6,142 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>900</width>
     <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Учет компьютерной мастерской</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_main">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabOrders">
+       <attribute name="title">
+        <string>Заказы</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_orders">
+        <item>
+         <widget class="QLabel" name="label_orders">
+          <property name="text">
+           <string>📋 Список заказов</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableViewOrders"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_buttons_orders">
+          <item>
+           <widget class="QPushButton" name="pushButton_addOrder">
+            <property name="styleSheet">
+             <string>background-color: #4CAF50; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>➕ Добавить</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_viewOrder">
+            <property name="styleSheet">
+             <string>background-color: #2196F3; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>📄 Подробнее</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_editOrder">
+            <property name="styleSheet">
+             <string>background-color: #FF9800; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>✏️ Редактировать</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_deleteOrder">
+            <property name="styleSheet">
+             <string>background-color: #F44336; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>🗑️ Удалить</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabEmployees">
+       <attribute name="title">
+        <string>Сотрудники</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_employees">
+        <item>
+         <widget class="QLabel" name="label_employees">
+          <property name="text">
+           <string>👨‍💻 Сотрудники</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableViewEmployees"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_buttons_employees">
+          <item>
+           <widget class="QPushButton" name="pushButton_addEmployee">
+            <property name="styleSheet">
+             <string>background-color: #4CAF50; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>➕ Добавить</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_editEmployee">
+            <property name="styleSheet">
+             <string>background-color: #FF9800; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>✏️ Редактировать</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_deleteEmployee">
+            <property name="styleSheet">
+             <string>background-color: #F44336; color: white; border-radius: 10px; padding: 10px; font-size: 14px;</string>
+            </property>
+            <property name="text">
+             <string>🗑️ Удалить</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>900</width>
      <height>21</height>
     </rect>
    </property>
